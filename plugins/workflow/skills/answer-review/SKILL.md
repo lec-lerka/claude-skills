@@ -5,6 +5,21 @@ description: Work through the review comments on my pull request: fix blocking f
 
 # Answer a PR review
 
+## 0. Wait for the whole review
+
+A multi-agent review posts its inline comments one by one and its summary (the
+`` `N important, M nits` `` line) last. Acting on the first comments means fixing, pushing and
+re-triggering the review while it is still writing, so findings get lost or reviewed twice.
+
+- Start only when the review run has **finished**: its check run (for example `review / Review` from the
+  `PR Review` workflow) is `completed` **and** its summary review is posted for the current head
+  commit.
+- A run that is still queued or in progress: wait. Don't reply, fix or push yet.
+- A run that ended `cancelled`, `failed` or `skipped` without a summary: there is no review to answer.
+  Say so, and tell me why if the log shows it (no runner, a bot actor, a missing token).
+- A human reviewer: wait until they submit the review (the comments arrive together with a
+  review state), not for each pending comment.
+
 ## 1. Collect everything open
 
 Read every review and every unresolved inline thread on the PR (reviews, review comments, and plain
