@@ -1,0 +1,9 @@
+{
+  "name": "review",
+  "version": "1.0.0",
+  "description": "PR review that follows each project's own rules and the review history already on its pull requests: Important / Nit findings, each verified against the code, posted as inline comments with a one-line count summary.",
+  "author": {
+    "name": "Valeriia Chaika",
+    "email": "valeriia.chaika@intercode.io"
+  }
+}

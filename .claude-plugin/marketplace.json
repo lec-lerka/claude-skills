@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "lec-lerka",
+  "description": "Valeriia's personal Claude Code skills, shared across projects",
+  "owner": {
+    "name": "Valeriia Chaika",
+    "email": "valeriia.chaika@intercode.io"
+  },
+  "plugins": [
+    {
+      "name": "review",
+      "version": "1.0.0",
+      "source": "./plugins/review",
+      "description": "PR review that follows each project's own rules and the review history already on its pull requests: Important / Nit findings, each verified against the code, posted as inline comments with a one-line count summary."
+    }
+  ]
+}
