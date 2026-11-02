@@ -1,7 +1,7 @@
 {
   "name": "review",
-  "version": "1.0.0",
-  "description": "PR review that follows each project's own rules and the review history already on its pull requests: Important / Nit findings, each verified against the code, posted as inline comments with a one-line count summary.",
+  "version": "1.1.0",
+  "description": "PR review that follows each project's own rules and the review history already on its pull requests (Important / Nit findings, each verified, posted inline with a count summary), and safe resolution of a PR's merge conflicts.",
   "author": {
     "name": "Valeriia Chaika",
     "email": "valeriia.chaika@intercode.io"
