@@ -15,9 +15,9 @@
     },
     {
       "name": "workflow",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "source": "./plugins/workflow",
-      "description": "Everyday delivery for any repo, following my way of working: deliver-pr (ticket and design first, branch naming, commits authored by me and committed by Claude, labels, PR description), answer-review (blocking first, reply to every comment, repeat until no review blocks), plus update-agents-md, mirror-sibling-change and fix-test-imports."
+      "description": "Everyday delivery for any repo, following my way of working: deliver-pr (ticket and design first, branch naming, commits authored by me and committed by Claude, labels, PR description), answer-review (wait for the whole review, blocking first, reply to every comment, repeat until no review blocks), watch-prs (follow my PRs: whole reviews, red CI, conflicts; never merge), add-skill (new skills go in lec-lerka/claude-skills), plus update-agents-md, mirror-sibling-change and fix-test-imports."
     },
     {
       "name": "guard",
