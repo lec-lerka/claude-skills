@@ -1,7 +1,7 @@
 {
   "name": "workflow",
-  "version": "1.0.0",
-  "description": "Everyday delivery checks for any repo: keep AGENTS.md / CLAUDE.md in sync with a change, mirror a fix to a sibling app or package that duplicates code, and fix tests that fail on import resolution instead of on their assertions.",
+  "version": "1.1.0",
+  "description": "Everyday delivery for any repo, following my way of working: deliver-pr (ticket and design first, branch naming, commits authored by me and committed by Claude, labels, PR description), answer-review (blocking first, reply to every comment, repeat until no review blocks), plus update-agents-md, mirror-sibling-change and fix-test-imports.",
   "author": {
     "name": "Valeriia Chaika",
     "email": "valeriia.chaika@intercode.io"
