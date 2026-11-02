@@ -9,9 +9,21 @@
   "plugins": [
     {
       "name": "review",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./plugins/review",
-      "description": "PR review that follows each project's own rules and the review history already on its pull requests: Important / Nit findings, each verified against the code, posted as inline comments with a one-line count summary."
+      "description": "PR review that follows each project's own rules and the review history already on its pull requests (Important / Nit findings, each verified, posted inline with a count summary), and safe resolution of a PR's merge conflicts."
+    },
+    {
+      "name": "workflow",
+      "version": "1.0.0",
+      "source": "./plugins/workflow",
+      "description": "Everyday delivery checks for any repo: keep AGENTS.md / CLAUDE.md in sync with a change, mirror a fix to a sibling app or package that duplicates code, and fix tests that fail on import resolution instead of on their assertions."
+    },
+    {
+      "name": "guard",
+      "version": "1.0.0",
+      "source": "./plugins/guard",
+      "description": "Safety hooks for every shell command Claude runs: no pushes to protected branches (main, master, staging, production), no deleting remote branches without asking, no env files, keys or secrets in a commit, a task-tracker reminder after a PR is opened or merged, and a check before finishing that edited code was tested. If a project ships its own copy at .claude/hooks/claude-guard.js, this one steps aside for that session."
     }
   ]
 }

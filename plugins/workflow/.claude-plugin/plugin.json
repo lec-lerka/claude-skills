@@ -1,0 +1,9 @@
+{
+  "name": "workflow",
+  "version": "1.0.0",
+  "description": "Everyday delivery checks for any repo: keep AGENTS.md / CLAUDE.md in sync with a change, mirror a fix to a sibling app or package that duplicates code, and fix tests that fail on import resolution instead of on their assertions.",
+  "author": {
+    "name": "Valeriia Chaika",
+    "email": "valeriia.chaika@intercode.io"
+  }
+}
