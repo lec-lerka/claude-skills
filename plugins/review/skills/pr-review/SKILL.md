@@ -9,8 +9,12 @@ One review per PR: a short summary that opens with the count (`` `1 important, 2
 `` `0 important, 3 nits` `` or `` `No blocking issues.` ``), then one inline comment per finding.
 Every finding is something you **checked in the code**, not a suspicion.
 
-Arguments: a PR number, several numbers, `all` (every open, non-draft PR), or nothing (the PR for the
-current branch). Add `--dry-run` to report findings in chat without posting.
+Arguments: a PR number, several numbers, `all`, or nothing (the PR for the current branch). Add
+`--dry-run` to report findings in chat without posting.
+
+**`all` means my PRs only**: every open, non-draft PR opened by the person you work for (their
+GitHub login). Never review or comment on a PR someone else opened unless the person names that PR
+explicitly, even when it carries the review label.
 
 ## 1. Learn the project before reading the diff
 

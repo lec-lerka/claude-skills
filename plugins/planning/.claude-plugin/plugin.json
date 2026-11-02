@@ -1,7 +1,7 @@
 {
   "name": "planning",
-  "version": "1.0.0",
-  "description": "Tickets to release: write-ticket (a bug or idea becomes a ticket with acceptance criteria on the tracker page), staging-retest-plan (one living plan, updated in place: new merges added, tested parts removed, results turned into Tested marks), release-pr (the staging → production PR with tickets, migrations, env vars, flags, risks and rollback), and artifact-cleanup (propose old or superseded artifacts and leftovers, delete only what you confirm).",
+  "version": "1.1.0",
+  "description": "Tickets to release: write-ticket (a bug or idea becomes a ticket with acceptance criteria on the tracker page), staging-retest-plan (one living plan, updated in place: new merges added, tested parts removed, results turned into Tested marks), release-pr (the staging → production PR with tickets, migrations, env vars, flags, risks and rollback), artifact-cleanup (propose old or superseded artifacts and leftovers, delete only what you confirm) and delete-tested-designs (designs whose tickets are Tested on staging: rescue what's open, unlink from the tracker, delete on confirmation).",
   "author": {
     "name": "Valeriia Chaika",
     "email": "valeriia.chaika@intercode.io"

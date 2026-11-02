@@ -24,7 +24,8 @@ the person decides. Every delete is confirmed by the person, one by one or as a 
 2. **Safe to delete**:
    - a page that says another one replaces it, when the replacement exists;
    - an older duplicate of the same title;
-   - a review or design page for a PR that is merged or closed, or a ticket that is Done and Tested;
+   - a review page for a PR that is merged or closed;
+   - a design page whose tickets are all Done **and Tested** (see `planning:delete-tested-designs`; a design whose ticket isn't Tested yet is still the spec);
    - empty or "Untitled" drafts.
 3. **Ask first**: has a shared database with results, notes or answers that aren't recorded elsewhere;
    is shared with other people; or you can't tell what it was for. Offer an export (a Markdown or JSON
