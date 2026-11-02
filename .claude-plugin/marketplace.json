@@ -24,6 +24,18 @@
       "version": "1.0.0",
       "source": "./plugins/guard",
       "description": "Safety hooks for every shell command Claude runs: no pushes to protected branches (main, master, staging, production), no deleting remote branches without asking, no env files, keys or secrets in a commit, a task-tracker reminder after a PR is opened or merged, and a check before finishing that edited code was tested. If a project ships its own copy at .claude/hooks/claude-guard.js, this one steps aside for that session."
+    },
+    {
+      "name": "i18n",
+      "version": "1.0.0",
+      "source": "./plugins/i18n",
+      "description": "Translations in every language: translation-check (a dependency-free script comparing every locale with the reference for missing keys, placeholders, plural forms, untranslated text and forbidden words) and translation-review (a per-language editor's review of meaning, terms, formality, grammar and length)."
+    },
+    {
+      "name": "planning",
+      "version": "1.0.0",
+      "source": "./plugins/planning",
+      "description": "Tickets to release: write-ticket (a bug or idea becomes a ticket with acceptance criteria on the tracker page), staging-retest-plan (one living plan, updated in place: new merges added, tested parts removed, results turned into Tested marks), release-pr (the staging → production PR with tickets, migrations, env vars, flags, risks and rollback), and artifact-cleanup (propose old or superseded artifacts and leftovers, delete only what you confirm)."
     }
   ]
 }

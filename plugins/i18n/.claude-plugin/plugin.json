@@ -1,0 +1,9 @@
+{
+  "name": "i18n",
+  "version": "1.0.0",
+  "description": "Translations in every language: translation-check (a dependency-free script comparing every locale with the reference for missing keys, placeholders, plural forms, untranslated text and forbidden words) and translation-review (a per-language editor's review of meaning, terms, formality, grammar and length).",
+  "author": {
+    "name": "Valeriia Chaika",
+    "email": "valeriia.chaika@intercode.io"
+  }
+}
